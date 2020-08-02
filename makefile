@@ -1,4 +1,4 @@
 CC=g++
 
 all:
-	$(CC) -g src/*.cpp -I include/ -o main
+	$(CC) -g src/*.cpp -I include/ -o bin/main
