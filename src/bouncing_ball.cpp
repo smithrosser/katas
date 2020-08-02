@@ -12,11 +12,11 @@ int bouncing_ball(double h, double bounce, double window)
 
     int sightings = 0;
     
-    while(h >= window)
+    while(h > window)
     {
         sightings++;                    // falls past window
         h = h * bounce;                 // bounces on ground
-        sightings += (h >= window);     // goes up past window
+        sightings += (h > window);     // goes up past window
     } 
 
     return sightings;

@@ -5,5 +5,5 @@
 
 int main()
 {
-   std::cout << bouncing_ball(10, 0.66, 1) << std::endl;
+   std::cout << bouncing_ball(3, 0.66, 1.5) << std::endl;
 }
