@@ -5,5 +5,5 @@
 
 int main()
 {
-   std::cout << bouncing_ball(3, 0.66, 1.5) << std::endl;
+   std::cout << to_camel_case("to_camel-case") << std::endl;
 }
