@@ -10,3 +10,5 @@ std::string longest_consec(const std::vector<std::string>& strarr, int k);
 int find_outlier(std::vector<int> arr);
 int bouncing_ball(double h, double bounce, double window);
 std::string to_camel_case(std::string input);
+std::string find_shortest(std::string input);
+std::string series_sum(int n);

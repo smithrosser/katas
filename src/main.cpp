@@ -5,5 +5,5 @@
 
 int main()
 {
-   std::cout << to_camel_case("to_camel-case") << std::endl;
+   std::cout << series_sum(5) << std::endl;
 }
